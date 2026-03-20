@@ -46,26 +46,10 @@ El fichero input.txt, situado en la carpeta src/main/resources, contiene el cód
 En este fichero se encuentra lo que querremos probar con el lexer previamente creado
 
 Una vez definido de lo que se encarga cada parte vamos a pasar a las instrucciones de ejecución: 
-1. Implementar el proyecto Maven.
-2.  Se editará el contenido del fichero imput.txt al código en lenguaje LEA que querremos analizar.
-3.  Encima del proyecto Maven previamente implementado le daremos click derecho y seleccionaremos Run as Maven build, y en la parte de goals pondremos: clean generate-sources.
-
-Con esto ya debería de compilarse automáticamente el proyecto, en caso de que no se compile haremos lo siguiente 
-
-1.	Run as Maven build y en goals clean compile
-
-Por ultimo para ejecutar el analizador léxico haremos click derecho sobre la clase Main.java y luego seleccionaremos run as, java aplication.
-
-
-
-
-IMAGEN DE EJEMPLO PARA VER LA JERARQUIA DEL PROYECTO: 
-	 
-
-Para conseguir esta jerarquía generaríamos de manera natural la clase Main, que serviría para ejecutar el lexer junto con el input. 
-Esta clase se generaría en la carpeta scr/main/java, dentro de un proyecto llamado uclm.automatas(los proyectos hay que crearlos de manera manual tambien).
-En scr/main/resources generaríamos el input.txt el cual como se ha explicado anteriormente es enunciado que queremos analizar.
-Por ultimo el Lexer.flex lo generaremos en scr/main/jflex.
+1.	Dirígete a https://github.com/ErGali1898/jflex_automatas/tree/main
+2.	Clona el proyecto
+3.	Run as Maven generate-resources, luego run as Maven clean.
+4.	Click derecho a Main.java- Run as Java application.
 
 
 ## 4.	EJEMPLO DE ENTRADA Y SALIDA
