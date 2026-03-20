@@ -1,0 +1,14 @@
+
+// Este es un ejemplo con diferentes definciones de node y edge
+#ejemplo de comentario2
+
+arbol ejemplo2 {
+node [shape = square, label = "a", color = "green", fontcolor = blue , style = bold]
+edge [dir = forward, label = "0", color = "blue", fontcolor = red , style = dashed]
+
+/*También tenemos diferentes comentarios
+en diferentes lineas */
+
+a hijos = {b [label = "6", color = "red"],c [label = "100"]}  [label = "A", color = "blue", shape = circle];
+
+}
